@@ -8,11 +8,11 @@ import Grid from './Components/Grid.jsx'
 
 const router=createBrowserRouter([
   {
-    path:'/',
+    path:'/TicTacToe/',
     element:<Home/>,
   },
   {
-    path:'/grid',
+    path:'/TicTacToe/grid',
     element:<Grid/>
   }
 ])

@@ -12,7 +12,7 @@ function Home(){
         alert('please enter player name')
     }
     else
-     navigate('/grid',{state:{player1,player2}})
+     navigate('/TicTacToe/grid',{state:{player1,player2}})
  }
     return(
         <>
