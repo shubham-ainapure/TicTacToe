@@ -1,0 +1,21 @@
+.Container{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.player1, .player2{
+    height: 5vh;
+    width: 18vw;
+    font-size: large;
+    padding: 6px;
+    all: unset;
+    border:1px solid aqua;
+    border-radius: 8px;
+}
+@media(max-width: 440px){
+    .player1, .player2{
+        height: 5vh;
+        width: 48vw;
+    } 
+}
